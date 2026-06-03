@@ -1,0 +1,53 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor]
+"Position"="Middle"
+"icon"="cmd.exe"
+"SubCommands"=""
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\FIX_IT]
+@="&FIX_IT"
+"icon"="cmd.exe"
+"MUIVerb"="FIX_IT"
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\FIX_IT\command]
+@="\"C:\\Image Compressor\\Fix-It.bat\" \"%1\""
+
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\To JPG]
+@="&To JPG"
+"icon"="cmd.exe"
+"MUIVerb"="To JPG"
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\To JPG\command]
+@="\"C:\\Image Compressor\\In-JPG.bat\" \"%1\""
+
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\Basic Compression]
+@="&Basic Compression"
+"icon"="cmd.exe"
+"MUIVerb"="Basic Compression"
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\Basic Compression\command]
+@="\"C:\\Image Compressor\\BasicCompress.bat\" \"%1\""
+
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\Standard Compression]
+@="&Standard Compression"
+"icon"="cmd.exe"
+"MUIVerb"="Standard Compression"
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\Standard Compression\command]
+@="\"C:\\Image Compressor\\StandardCompress.bat\" \"%1\""
+
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\50 kb Compression]
+@="&50 kb Compression"
+"icon"="cmd.exe"
+"MUIVerb"="50 kb Compression"
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\50 kb Compression\command]
+@="\"C:\\Image Compressor\\Compress50kb.bat\" \"%1\""
+
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\20 kb Compression]
+@="&20 kb Compression"
+"icon"="cmd.exe"
+"MUIVerb"="20 kb Compression"
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Image Compressor\shell\20 kb Compression\command]
+@="\"C:\\Image Compressor\\Compress20kb.bat\" \"%1\""
