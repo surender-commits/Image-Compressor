@@ -2,6 +2,10 @@
 
 A Windows batch-based image utility that integrates directly into the File Explorer context menu. Powered by FFmpeg and ImageMagick, it provides quick image compression, format conversion, metadata repair, and automatic backup creation with a single right-click.
 
+## Screenshots
+
+<img src="https://github.com/surender-commits/Image-Compressor/blob/main/Image-Compressor.jpg"  width="auto" height="auto" >
+
 ## Features
 
 * Right-click context menu integration
